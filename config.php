@@ -10,8 +10,10 @@
         // public $server_name = "localhost";
         // public $user_name = "root";
         // public $password = "";
-        // public $database = "testtt";
+        // public $database = "digishop_project_k2_g1";
         // public $port = "3306";
+
+        
         public $conn;
 
         public function __construct() {
@@ -19,7 +21,7 @@
             $option = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
             try {
                 $this->conn = new PDO($dsn,$this->user_name,$this->password,$option);
-                // print_r($this->conn);
+                echo "connect success";
             } catch(PDOException $e) {
                 echo $e->getMessage();
             }
