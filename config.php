@@ -1,17 +1,17 @@
 <?php
     class config {
-        // public $server_name = "103.200.23.160";
-        // public $user_name = "digishop_viper";
-        // public $password = "TiniWorld1@3";
-        // public $database = "digishop_project_k2_g1";
-        // public $port = "3306";
-        /*   */
-
-        public $server_name = "localhost";
-        public $user_name = "root";
-        public $password = "";
+        public $server_name = "103.200.23.160";
+        public $user_name = "digishop_viper";
+        public $password = "TiniWorld1@3";
         public $database = "digishop_project_k2_g1";
         public $port = "3306";
+        /*   */
+
+        // public $server_name = "localhost";
+        // public $user_name = "root";
+        // public $password = "";
+        // public $database = "digishop_project_k2_g1";
+        // public $port = "3306";
 
         
         public $conn;
